@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%" fill="none" role="img" aria-label="Logo Lima Gestão Financeira">
+  <defs>
+    <!-- Background subtle gradient -->
+    <linearGradient id="lima-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#063D32" />
+      <stop offset="100%" stop-color="#092F29" />
+    </linearGradient>
+
+    <!-- Emerald primary gradient -->
+    <linearGradient id="lima-emerald" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00B86B" />
+      <stop offset="100%" stop-color="#00D084" />
+    </linearGradient>
+
+    <!-- Dark accent gradient -->
+    <linearGradient id="lima-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E5A4B" />
+      <stop offset="100%" stop-color="#063D32" />
+    </linearGradient>
+
+    <!-- Highlight glow -->
+    <linearGradient id="lima-glow" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#00D084" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#00B86B" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle Base Container -->
+  <rect x="6" y="6" width="108" height="108" rx="28" fill="url(#lima-bg)" stroke="#00B86B" stroke-width="2" stroke-opacity="0.35"/>
+  <rect x="7" y="7" width="106" height="54" rx="27" fill="url(#lima-glow)" />
+
+  <!-- Modern Financial Symbol: Upward Geometric Growth Bars & Precision Core -->
+  <g transform="translate(18, 18)">
+    <!-- Left vertical anchor bar (Stability) -->
+    <path d="M14 62V24C14 20.686 16.686 18 20 18H24C27.314 18 30 20.686 30 24V62C30 65.314 27.314 68 24 68H20C16.686 68 14 65.314 14 62Z" fill="url(#lima-emerald)" />
+
+    <!-- Bottom horizontal base bar (Foundation / Horizontal L leg) -->
+    <path d="M14 54C14 50.686 16.686 48 20 48H64C67.314 48 70 50.686 70 54V58C70 63.523 65.523 68 60 68H24C18.477 68 14 63.523 14 58V54Z" fill="url(#lima-emerald)" />
+
+    <!-- Middle dynamic ascending column (Growth & Cashflow) -->
+    <path d="M37 62V34C37 30.686 39.686 28 43 28H47C50.314 28 53 30.686 53 34V62C53 65.314 50.314 68 47 68H43C39.686 68 37 65.314 37 62Z" fill="#FFFFFF" fill-opacity="0.9" />
+
+    <!-- Top right ascending apex indicator (Vision & High Performance) -->
+    <path d="M60 44C60 40.686 62.686 38 66 38H70C73.314 38 76 40.686 76 44V62C76 65.314 73.314 68 70 68H66C62.686 68 60 65.314 60 62V44Z" fill="url(#lima-emerald)" />
+
+    <!-- Upward Growth Diamond / Pinnacle Spark (Sua empresa no controle) -->
+    <path d="M68 16L74 22L68 28L62 22Z" fill="#00D084" />
+  </g>
+</svg>

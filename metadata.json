@@ -1,0 +1,6 @@
+{
+  "name": "Lima Gestão Financeira",
+  "description": "BPO Financeiro e Gestão Financeira Terceirizada para pequenas e médias empresas. Seu financeiro organizado. Sua empresa no controle.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

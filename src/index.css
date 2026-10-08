@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg-primary: #FFFFFF;
+  --color-bg-alt: #F4F8F6;
+  --color-primary: #00B86B;
+  --color-primary-emerald: #00D084;
+  --color-green-dark: #063D32;
+  --color-green-petrol: #092F29;
+  --color-card-dark: #073A31;
+  --color-text-primary: #10231F;
+  --color-text-secondary: #53645F;
+  --color-border: #DCE8E3;
+}
+
+@layer base {
+  body {
+    background-color: #FFFFFF;
+    color: #10231F;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom shadow and border helpers */
+.shadow-card-light {
+  box-shadow: 0 4px 20px -2px rgba(9, 47, 41, 0.06), 0 2px 6px -1px rgba(9, 47, 41, 0.03);
+}
+
+.shadow-card-hover {
+  box-shadow: 0 12px 30px -4px rgba(9, 47, 41, 0.12), 0 4px 10px -2px rgba(9, 47, 41, 0.05);
+}
+
+.shadow-card-dark {
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.25);
+}
+
+.border-light-green {
+  border-color: #DCE8E3;
+}
+
+/* Smooth transitions */
+.transition-smooth {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Subtle Hero Entrance Animation (Prompt 02.2) */
+@keyframes heroFadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero-animate-fade-in {
+    animation: heroFadeInUp 0.75s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+  .hero-animate-fade-in-delayed {
+    animation: heroFadeInUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.15s both;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-animate-fade-in,
+  .hero-animate-fade-in-delayed {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
