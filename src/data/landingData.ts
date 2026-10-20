@@ -11,7 +11,7 @@ import {
 } from '../types';
 
 // Constantes de contato centralizadas (sem dados inventados)
-export const WHATSAPP_NUMBER: string = "INSIRA_SEU_NUMERO_AQUI";
+export const WHATSAPP_NUMBER: string = "5511996318488";
 export const DISPLAY_PHONE: string = "INSIRA_SEU_NUMERO_AQUI";
 export const EMAIL: string = "INSIRA_SEU_EMAIL_AQUI";
 export const INSTAGRAM_URL: string = "INSIRA_SEU_INSTAGRAM_AQUI";
